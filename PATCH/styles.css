@@ -1,0 +1,119 @@
+body {
+    background-color: #ffffff; /* Fond blanc pour un design propre */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333333; /* Couleur du texte pour contraster avec le fond blanc */
+    overflow: hidden; /* Empêche le défilement */
+}
+
+.container {
+    text-align: center;
+    background: #f0f3f5; /* Fond clair avec une légère teinte */
+    border-radius: 20px;
+    padding: 20px; /* Réduit le padding pour une mise en page plus compacte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère pour un effet de profondeur */
+    max-width: 480px; /* Largeur maximale du conteneur */
+    width: 100%;
+    height: auto; /* Utilise la hauteur automatique pour s'adapter au contenu */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribue l'espace entre les sections */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centre le logo horizontalement et verticalement */
+    margin-bottom: 20px;
+}
+
+.header img {
+    height: auto; /* Ajuste la hauteur automatiquement tout en conservant les proportions */
+    max-height: 80px; /* Ajuste la hauteur maximale pour le logo */
+}
+
+.promo {
+    margin-bottom: 20px;
+}
+
+.promo-title {
+    color: #0088cc; /* Couleur bleu Telegram pour le titre */
+    font-weight: bold;
+    font-size: 1.5em; /* Taille du texte du titre promo */
+    display: block;
+    margin-bottom: 15px;
+}
+
+.promo-list {
+    padding: 0;
+    list-style: none; /* Enlève les puces */
+    margin: 0;
+}
+
+.promo-list li {
+    font-weight: bold;
+    margin: 10px 0; /* Espacement entre les éléments de la liste */
+}
+
+.promo-list li:nth-child(1) {
+    color: #006400; /* Couleur verte sombre */
+}
+
+.promo-list li:nth-child(2) {
+    color: #003366; /* Couleur bleu foncé */
+}
+
+.promo-list li:nth-child(3) {
+    color: #8B0000; /* Couleur rouge sombre */
+}
+
+.cat img {
+    width: 100%; /* Largeur du conteneur */
+    max-width: 150px; /* Largeur maximale de l'image */
+    height: auto; /* Ajuste la hauteur automatiquement tout en conservant les proportions */
+    margin: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.footer a {
+    width: 60px; /* Augmente la largeur des logos */
+    margin: 0 5px; /* Ajoute un espace entre les icônes */
+}
+
+.footer img {
+    width: 100%; /* Largeur du conteneur */
+    height: auto; /* Ajuste la hauteur automatiquement tout en conservant les proportions */
+}
+
+.bottom-link {
+    text-align: center;
+    padding: 10px 0; /* Espacement interne autour du lien */
+    margin-top: 10px; /* Réduit la marge au-dessus du bouton */
+}
+
+.bottom-link a {
+    color: #ffffff; /* Couleur du texte du lien */
+    text-decoration: none; /* Enlève le soulignement du lien */
+    font-size: 16px; /* Taille de la police du lien */
+    border: 1px solid #0088cc; /* Bordure bleue autour du lien */
+    border-radius: 5px; /* Coins arrondis pour le bouton */
+    padding: 12px 24px; /* Espacement interne pour le bouton */
+    background-color: #0088cc; /* Couleur de fond bleue claire pour le bouton */
+    display: inline-block; /* Assure que le bouton s'ajuste au contenu */
+    max-width: 200px; /* Largeur maximale du bouton */
+    overflow: hidden; /* Empêche le débordement */
+}
+
+.bottom-link a:hover {
+    background-color: #005f77; /* Couleur de fond bleue plus foncée au survol */
+}
